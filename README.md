@@ -17,3 +17,7 @@ https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
 3: Dependency management:
 https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 
+4: Linter:
+https://github.com/golangci/golangci-lint
+
+
