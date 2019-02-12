@@ -70,8 +70,13 @@ func process(args []string) error {
 		return err
 	}
 
-	// test add function
-	fmt.Printf(" %v + %v = %.2f \n", number1, number2, number1+number2)
+	// use math function utils: Add
+	addResult, err := utils.Add(number1, number2)
+	if err != nil {
+		return err
+	}
+
+	fmt.Printf(" %v + %v = %.2f \n", number1, number2, addResult)
 
 	return nil
 }
