@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/mitchellh/cli"
+	"github.com/skycoin/arena/cmd/add"
 )
 
 func main() {
@@ -12,7 +13,11 @@ func main() {
 
 	myCli.Args = os.Args[1:]
 
-	myCli.Commands = map[string]cli.CommandFactory{}
+	ui := &cli.BasicUi{Writer: os.Stdout, ErrorWriter: os.Stderr}
+
+	myCli.Commands = map[string]cli.CommandFactory{
+		"add": func() (cli.Command, error) { return add.New(ui), nil },
+	}
 
 	exitStatus, err := myCli.Run()
 	if err != nil {
