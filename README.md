@@ -96,18 +96,11 @@ Sample:
 -------------------------------------
 5. Run add (OK, Scenario 2):
 
-./bin/arena add 1,2 2.3
+./bin/arena add 1.2 2.3
 
 >> Result:
 
-ERROR: Invalid number!
-
-Usage:
-   arena add <number1> <number2>
-
-Sample:
-   arena add 1 2
-
+ 1.2 + 2.3 = 3.50
 
 -------------------------------------
 6. Run add (ERROR, Scenario 1):

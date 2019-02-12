@@ -42,10 +42,10 @@ echo ">> Result: \n"
 
 echo "\n-------------------------------------"
 echo "5. Run add (OK, Scenario 2): \n"
-echo "./bin/arena add 1,2 2.3\n"
+echo "./bin/arena add 1.2 2.3\n"
 echo ">> Result: \n"
 
-./bin/arena add 1,2 2.3
+./bin/arena add 1.2 2.3
 
 
 echo "\n-------------------------------------"
