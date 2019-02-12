@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/skycoin/arena/utils"
+
 	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
 )
@@ -49,6 +51,11 @@ func process(args []string) error {
 	// check input parameter
 	if len(args) < 2 {
 		return fmt.Errorf("ERROR: Invalid input parameters! \n %v", help)
+	}
+
+	// numeric validation
+	if !utils.IsNumeric(args[0]) || !utils.IsNumeric(args[1]) {
+		return fmt.Errorf("ERROR: Invalid number! \n %v", help)
 	}
 
 	// assign number #1
