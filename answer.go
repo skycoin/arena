@@ -5,13 +5,6 @@ import (
 	"strconv"
 )
 
-package main
-import (
-	"fmt"
-	"flag"
-	"strconv"
-)
-
 func main() {
 	add()
 }
