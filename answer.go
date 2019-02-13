@@ -5,17 +5,29 @@ import (
 	"strconv"
 )
 
+package main
+import (
+	"fmt"
+	"flag"
+	"strconv"
+)
+
 func main() {
-	flag.Parse()
+	add()
+}
+
+func add() error {
+    flag.Parse()
     firstNumberInt, err := strconv.Atoi(flag.Arg(0))
     if err != nil {
-    	panic(err)
+    	return err
     }
-    
+
     secondNumberInt, err := strconv.Atoi(flag.Arg(1))
     if err != nil {
-    	panic(err)
+    	return err
     }
 
     fmt.Println("Result:", firstNumberInt + secondNumberInt)
+    return nil
 }
