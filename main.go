@@ -26,7 +26,6 @@ func main() {
 		return
 	}
 
-
 	addn1, err := strconv.Atoi(args[1])
 	if err != nil {
 		fmt.Printf("First arg is not integer. %v\n", err)
