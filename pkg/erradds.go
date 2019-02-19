@@ -5,7 +5,7 @@ type Error struct {
 }
 
 func AddendWrong(osArg []string) Error {
-	if len(osArg) == 0 {
+	if len(osArg) == 1 {
 		return Error{
 			Val: 1,
 		}

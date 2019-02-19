@@ -15,7 +15,7 @@ func main() {
 	if Error.Val > 0 {
 		switch Error.Val {
 		case 1:
-			fmt.Println("Addends does not indicated")
+			fmt.Println("Addends are not indicated")
 
 		case 2:
 			fmt.Println("Count Addends must be 2")
