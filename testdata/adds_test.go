@@ -17,7 +17,7 @@ var flagTests = []struct {
 	{1, 0, 1},
 }
 
-func TestFlagParser(t *testing.T) {
+func TestAdds(t *testing.T) {
 	var addn pkg.Addend
 
 	for _, addns := range flagTests {
