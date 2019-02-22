@@ -6,14 +6,14 @@ import (
 	"bufio"
 	"fmt"
 	"log"
+	"math/big"
 	"os"
-	"strconv"
 	"strings"
 )
 
 // This is naive implementation without error handling and reflection.
 func main() {
-	res := 0
+	res := &big.Int{}
 	nums := []string{}
 
 	scanner := bufio.NewScanner(os.Stdin)
@@ -33,12 +33,12 @@ func main() {
 		}
 		nums = append(nums, s)
 
-		v, err := strconv.Atoi(s)
-		if err != nil {
+		v := &big.Int{}
+		if err := v.UnmarshalText([]byte(s)); err != nil {
 			log.Fatalln(err)
 		}
 
-		res += v
+		res = res.Add(res, v)
 	}
 
 	fmt.Printf("The sum of %s and %s is: %d\n", nums[0], nums[1], res)
