@@ -1,23 +1,19 @@
 # Arena
 
-## Tasks
-There are two tasks to be completed here:
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
+## Requirements
+`go 1.9+`
 
-## Guidelines
-There are two guidelines that will give you a clear picture of what is expected in terms of coding style and conventions.
+## Install
+```bash
+go get -u github.com/skycoin/arena/cmd/...
+```
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+## Build from source
+```bash
+go build ./...
+```
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
-
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
-
-4: Linter:
-https://github.com/golangci/golangci-lint
-
-
+## Usage
+```bash
+arena_sum
+```
