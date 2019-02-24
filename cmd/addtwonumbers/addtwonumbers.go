@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/skycoin/arena/pkg/addtwonumbers"
+	"github.com/skycoin/arena/pkg/service"
 )
 
 const (
@@ -31,7 +31,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	result := addtwonumbers.AddTwoNumbers(num1, num2)
+	result := service.AddTwoNumbers(num1, num2)
 
 	fmt.Printf("%v\n", result)
 }

@@ -1,4 +1,4 @@
-package addtwonumbers
+package service
 
 import (
 	"math/big"
