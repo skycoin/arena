@@ -21,3 +21,10 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 https://github.com/golangci/golangci-lint
 
 
+## How to Run Apps
+1: build using make file:
+    - macOs : make build_mac.
+    - linux : make build.
+2: Run:
+    - ./arena run.
+    - ./arena run -i 1 -i 2.
