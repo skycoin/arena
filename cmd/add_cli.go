@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/artem-karpenko/arena"
 	"os"
+
+	"github.com/artem-karpenko/arena"
 )
 
 func main() {
