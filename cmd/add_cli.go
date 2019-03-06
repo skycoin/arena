@@ -15,5 +15,5 @@ func main() {
 		return
 	}
 	sum := arena.AddNumbers(firstNumber, secondNumber)
-	fmt.Printf("Sum is: %v", sum)
+	fmt.Printf("Sum is: %v \n", sum)
 }

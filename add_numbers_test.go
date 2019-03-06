@@ -23,10 +23,10 @@ var additionTests = []struct {
 	},
 	{
 		description:  "Floats",
-		input:        "19.75\n1.25",
-		firstNumber:  19.2,
-		secondNumber: 1.2,
-		sum:          20.4,
+		input:        "19.75\n1.26",
+		firstNumber:  19.75,
+		secondNumber: 1.26,
+		sum:          21.01,
 	},
 	{
 		description:  "Integers (with space)",
