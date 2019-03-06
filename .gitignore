@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# Gopkg files
+Gopkg.*
+
 # Test binary, build with `go test -c`
 *.test
 
