@@ -10,3 +10,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Local settings and binary output
+.envrc
+Gopkg.lock
+arena

@@ -1,9 +1,16 @@
 default: clean format build test
 
-format:
-	go fmt
+# All code should be formatted with goimports.
+# Use the testify require or testify assert package for assertions.
+update_packages: 
+	dep ensure -update -v
 
-build: 
+#  Additionally, the project should have a Makefile command called
+#  make format which formats all of the source with goimports.
+format: update_packages
+	goimports -w .
+
+build: update_packages
 	go build
 
 test:
@@ -11,5 +18,4 @@ test:
 
 clean:
 	go clean
-
 	
