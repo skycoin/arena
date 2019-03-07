@@ -38,18 +38,19 @@ var additionTests = []struct {
 }
 
 var failingTests = []struct {
-	description  string
-	input        string
+	description string
+	input       string
 }{
 	{
-		description:  "String inputs",
-		input:        "n\na",
+		description: "String inputs",
+		input:       "n\na",
 	},
 	{
-		description:  "String inputs (with space)",
-		input:        "a b",
+		description: "String inputs (with space)",
+		input:       "a b",
 	},
 }
+
 func TestReadNumbers(t *testing.T) {
 	for _, test := range additionTests {
 		t.Run(test.description, func(t *testing.T) {
