@@ -3,13 +3,23 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
+	"io"
 
 	"github.com/mungujn/arena"
 )
 
 func main() {
-	fmt.Println("Input two numbers:")
-	firstNumber, secondNumber, err := arena.ReadNumbers(os.Stdin)
+	var stream io.Reader
+
+	if parameters := os.Args; len(parameters) == 3 {
+		stream = strings.NewReader(parameters[1] + " " + parameters[2])
+	} else {
+		fmt.Println("Input two numbers:")
+		stream = os.Stdin
+	}
+
+	firstNumber, secondNumber, err := arena.ReadNumbers(stream)
 	if err != nil {
 		fmt.Println("Incorrect inputs")
 		return
