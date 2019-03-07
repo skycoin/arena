@@ -37,6 +37,19 @@ var additionTests = []struct {
 	},
 }
 
+var failingTests = []struct {
+	description  string
+	input        string
+}{
+	{
+		description:  "String inputs",
+		input:        "n\na",
+	},
+	{
+		description:  "String inputs (with space)",
+		input:        "a b",
+	},
+}
 func TestReadNumbers(t *testing.T) {
 	for _, test := range additionTests {
 		t.Run(test.description, func(t *testing.T) {
@@ -55,6 +68,16 @@ func TestAddNumbers(t *testing.T) {
 			firstNumber, secondNumber, _ := ReadNumbers(strings.NewReader(test.input))
 			sum := AddNumbers(firstNumber, secondNumber)
 			assert.Equal(t, test.sum, sum)
+		})
+	}
+}
+
+func TestWrongInputs(t *testing.T) {
+	for _, test := range failingTests {
+		t.Run(test.description, func(t *testing.T) {
+			_, _, err := ReadNumbers(strings.NewReader(test.input))
+
+			assert.NotNil(t, err)
 		})
 	}
 }
