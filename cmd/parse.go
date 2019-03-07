@@ -1,10 +1,11 @@
 package cmd
 
 import (
-	"arena/pkg/math"
 	"flag"
 	"fmt"
 	"log"
+
+	"github.com/skycoin/arena/pkg/math"
 )
 
 // Parse parses the command-line flags

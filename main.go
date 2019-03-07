@@ -1,6 +1,6 @@
 package main
 
-import "arena/cmd"
+import "github.com/skycoin/arena/cmd"
 
 func main() {
 	// Parse command-line flags
