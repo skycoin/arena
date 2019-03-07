@@ -5,6 +5,9 @@ default: clean format build test
 update_packages: 
 	dep ensure -update -v
 
+lint: 
+	golangci-lint run -v
+
 #  Additionally, the project should have a Makefile command called
 #  make format which formats all of the source with goimports.
 format: update_packages
