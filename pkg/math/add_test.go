@@ -27,7 +27,7 @@ func TestAdd(t *testing.T) {
 	assert := assert.New(t)
 
 	for _, test := range tests {
-		result := test.first + test.second
+		result := Add(test.first, test.second)
 		assert.Equal(test.expected, result, "%v + %v should be %v", test.first, test.second, test.expected)
 	}
 }
