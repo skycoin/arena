@@ -1,24 +1,42 @@
-# Arena
+# Skycoin: Addition
+- [Skycoin: Addition](#skycoin-addition)
+  - [Building the source](#building-the-source)
+    - [Prerequisites](#prerequisites)
+    - [Build](#build)
+  - [Usage](#usage)
+  - [Testing](#testing)
+  - [Future enhancement](#future-enhancement)
 
-## Tasks
-There are two tasks to be completed here:
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
-3. Add information for contact in the PR. (Email, Telegram or Wechat.)
+## Building the source
 
-## Guidelines
-There are two guidelines that will give you a clear picture of what is expected in terms of coding style and conventions.
+### Prerequisites
+goLang
+dep: `go get -u github.com/golang/dep/cmd/dep`
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+### Build
+Clone the repository
+1. cd `$GOPATH/src/github.com`
+2. `git clone https://github.com/{username}/arena`
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
+The build process is set to be automatic you just need to install the package using:
 
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
+`dep ensure`
 
-4: Linter:
-https://github.com/golangci/golangci-lint
+`make tool`
 
+## Usage
 
+`make add`
+
+Enter number and press enter, enter second number.
+
+## Testing
+
+`make test`
+
+Will run all the tests for all packages (src/*).
+
+## Future enhancement
+
+We can add more operations like subtract, divide, just by adding a specific function in `src/{operation}/{operation}.go`.
+And adding them in `cmd/cli.go`
