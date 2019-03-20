@@ -4,11 +4,13 @@
 
 Assuming you have go installed:
 
-Makefile commands:
+These Makefile commands are available:
 - `make format` -> Runs goimport on all .go files
 - `make test` -> run tests
+- `make dep` -> install dep management tool
 
-Run:
+Running Program:
+
 Two addends needed for sum function
 Use -firstAddend | -secondAddend flags
 
