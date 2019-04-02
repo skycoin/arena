@@ -21,4 +21,7 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 4: Linter:
 https://github.com/golangci/golangci-lint
 
+## Run
+Type: make run
+
 
