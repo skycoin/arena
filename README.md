@@ -7,7 +7,7 @@ There are two tasks to be completed here:
 3. Add information for contact in the PR. (Email, Telegram or Wechat.)
 
 ## Guidelines
-There are two guidelines that will give you a clear picture of what is expected in terms of coding style and conventions.
+Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
 
 1: Branch and PR guide:
 https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
