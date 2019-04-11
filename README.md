@@ -21,4 +21,10 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 4: Linter:
 https://github.com/golangci/golangci-lint
 
-
+## Usage
+```
+$> make build
+go build -o ./arena cmd/add.go
+$> ./arena -v1 4 -v2 5
+9
+```
