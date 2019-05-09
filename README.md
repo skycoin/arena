@@ -1,24 +1,41 @@
-# Arena
+﻿
 
-## Tasks
 
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
-3. Add information for contact in the PR. (Email, Telegram or Wechat.)
+# How to Run Skycoin Wallet From Source (In (Terminal)
 
-## Guidelines
-Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
+Commands to use to run your Skycoin Wallet from source in terminal. 
+## Getting Started
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+The following commands will get Skycoin Wallet running from terminal / command line.
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
+### Prerequisites
 
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
+The assumption is that you already have the Skycoin Installation package installed and tested for your version of O/S. If not the following documents will guide you through that process: 
+[https://github.com/skycoin/skycoin#run-skycoin-from-the-command-line](https://github.com/skycoin/skycoin#run-skycoin-from-the-command-line)
 
-4: Linter:
-https://github.com/golangci/golangci-lint
+[https://github.com/skycoin/skycoin/blob/develop/INSTALLATION.md](https://github.com/skycoin/skycoin/blob/develop/INSTALLATION.md)
 
+## Running Skycoin Wallet
+
+The following commands should be used to run the Skycoin wallet :
+
+$ cd $GOPATH/src/github.com/skycoin/skycoin
+$ make run-client
+
+## Show Skycoin Node Options
+
+The following commands will display the Skycoin Node options: 
+
+$ cd $GOPATH/src/github.com/skycoin/skycoin
+$ make run-help
+
+## Run Skycoin With Options
+
+The following commands will allow you to run Skycoin Wallet with options: 
+
+$ cd $GOPATH/src/github.com/skycoin/skycoin
+$ make ARGS="--launch-browser=false -data-dir=/custom/path" run
+
+
+## End
 
