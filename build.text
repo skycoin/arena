@@ -1,0 +1,10 @@
+Steps for compile go program
+
+go build Sum.go
+go run Sum.go 10 20
+
+Result 
+
+10
+20
+sum :  30
