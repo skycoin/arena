@@ -12,5 +12,5 @@ func main() {
 		fmt.Printf("\n An error occurred: %v", err)
 		return
 	}
-	fmt.Printf("\nResult of additing two numbers %f and %f are: %f", num1, num2, res)
+	fmt.Printf("\nResult of additing two numbers %f and %f are: %f\n", num1, num2, res)
 }
