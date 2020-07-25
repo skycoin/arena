@@ -14,7 +14,7 @@ func CheckForInValidInputSize(arr []string) bool {
 	return len(arr) != 2
 }
 
-func addTwoNumbers(NumberArray []string) (float64,error) {
+func AddTwoNumbers(NumberArray []string) (float64,error) {
 	var i int
 	var sum float64
 
@@ -36,7 +36,7 @@ func main() {
 	}
 	var err error
 	var sum float64
-	sum, err = addTwoNumbers(args)
+	sum, err = AddTwoNumbers(args)
 	if err != nil {
 		fmt.Println(ErrorFormatter("Invalid input"))
 		return
