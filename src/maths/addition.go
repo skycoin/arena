@@ -5,6 +5,6 @@ type Addition struct {
 	SecondValue float32
 }
 
-func (add Addition) GetSum()  float32{
-	return add.FirstValue+add.SecondValue
+func (add Addition) GetSum() float32 {
+	return add.FirstValue + add.SecondValue
 }
