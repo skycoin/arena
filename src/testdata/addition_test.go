@@ -1,7 +1,7 @@
 package testdata
 
 import "testing"
-import "awesomeProject1/src/maths"
+import "arena/src/maths"
 
 func TestSum(t *testing.T) {
 	actual := maths.Addition{FirstValue: 3, SecondValue: 4}.GetSum()
