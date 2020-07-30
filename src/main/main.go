@@ -1,15 +1,20 @@
 package main
 
 import (
-	"arena/src/maths"
 	"fmt"
-	"os"
-	"strconv"
+	"github.com/punithsr27/arena/src/maths"
 )
 
 func main() {
-	add := new(maths.Addition)
-	add.FirstValue, _ = strconv.ParseFloat(os.Args[0], 64)
-	add.SecondValue, _ = strconv.ParseFloat(os.Args[1], 64)
-	fmt.Printf("Addition of two no's %g:", add.GetSum())
+	add := maths.Addition{}
+	var value1, value2 float32
+	_, err := fmt.Scanln("%f %f", &value1, &value2)
+	if err != nil {
+		add.FirstValue = value1
+		add.SecondValue = value2
+		fmt.Printf("Addition of two no's %f:", add.GetSum())
+	} else {
+		fmt.Println(err)
+	}
+
 }

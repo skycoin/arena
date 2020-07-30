@@ -1,10 +1,10 @@
 package maths
 
 type Addition struct {
-	FirstValue  float64
-	SecondValue float64
+	FirstValue  float32
+	SecondValue float32
 }
 
-func (add Addition) GetSum() float64 {
+func (add Addition) GetSum() float32 {
 	return add.FirstValue + add.SecondValue
 }
