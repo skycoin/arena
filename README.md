@@ -1,24 +1,18 @@
 # Arena
 
-## Tasks
+## Commands
 
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
-3. Add information for contact in the PR. (Email, Telegram or Wechat.)
+#### a) cd arena
 
-## Guidelines
-Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
+#### b) go install
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+#### c) Get sum by:
+1. For integer numbers, arena add [args1] [args2]
+2. For floating numbers, arena add [args1] [args2] -float
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
+## Example
+ arena add 1 2
 
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
+ arena add 1.5 2.6 -f
 
-4: Linter:
-https://github.com/golangci/golangci-lint
-
-
+ arena add 1.5 2.6 -float
