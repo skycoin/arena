@@ -1,24 +1,35 @@
 # Arena
 
-## Tasks
+## Overview [![GoDoc](https://godoc.org/github.com/gunjan01/arena?status.svg)](https://godoc.org/github.com/gunjan01/arena)
 
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
-3. Add information for contact in the PR. (Email, Telegram or Wechat.)
+A simple program that takes two numbers from the command line, adds them up and prints the result.
 
-## Guidelines
-Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
+## Install
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+```
+go get github.com/gunjan01/arena
+```
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
+## Setup
 
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
+Run following commands to try it out:
 
-4: Linter:
-https://github.com/golangci/golangci-lint
+* Install the project
+* Run `make build` to build and run binaries
 
+## Manual
 
+```
+  λ  make
+
+  build     Build the binaries
+  lint      Check for linting errors
+  format    Check for formatting errors
+  tools     Installs tools
+  test      Run tests
+
+```
+
+## License
+
+MIT.
