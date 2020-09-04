@@ -22,3 +22,4 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 https://github.com/golangci/golangci-lint
 
 
+** Please find details of the performed task in Submission.md
