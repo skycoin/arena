@@ -83,6 +83,20 @@ Addition of given numbers [231] is 231
 $ arena add .4 .5 -f
 Sum of given float numbers [.4 .5] is 0.900000
 
+#here is the output if you add floating point using int
+$ arena add .5 .6
+error:
+strconv.Atoi: parsing ".5": invalid syntax while parsing integers, omiting value : .5
+error:
+strconv.Atoi: parsing ".6": invalid syntax while parsing integers, omiting value : .6
+
+ No valid integer arguments found, please check the input
+ use the -f flag to add float
+This command adds the arguments passed following it, Please remember to leave space between arguments!
+Usage: arena add arg1 arg2 arg3 ...
+	   arena add arg1 arg2 arg3 -f
+
+
 ```
 
 
