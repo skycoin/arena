@@ -7,6 +7,7 @@
 3. Add information for contact in the PR. (Email, Telegram or Wechat.)
 
 ## Guidelines
+
 Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
 
 1: Branch and PR guide:
@@ -21,4 +22,19 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 4: Linter:
 https://github.com/golangci/golangci-lint
 
+## Instructions
 
+```bash
+git clone https://github.com/skycoin/arena
+cd arena
+# Without build
+go run ./arena.go $num1 $num2
+
+# With build
+go build
+./arena $num1 $num2
+
+# After Installing
+go install
+arena $num1 $num2
+```
