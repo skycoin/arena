@@ -30,9 +30,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f028443a-e799-4955-ad83-38b9697e5f09" name="Default Changelist" comment="">
+    <list default="true" id="f028443a-e799-4955-ad83-38b9697e5f09" name="Default Changelist" comment="/.idea gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -123,6 +123,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="/.idea gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="/.idea gitignore" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="593" y="340" width="556" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600272961536">
       <screen x="72" y="27" width="1608" height="1023" />
@@ -152,9 +156,9 @@
       <screen x="72" y="27" width="1608" height="1023" />
     </state>
     <state x="365" y="173" width="1022" height="737" key="SettingsEditor/72.27.1608.1023@72.27.1608.1023" timestamp="1600267695505" />
-    <state x="471" y="274" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600273539892">
+    <state x="471" y="274" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600273776754">
       <screen x="72" y="27" width="1608" height="1023" />
     </state>
-    <state x="471" y="274" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1608.1023@72.27.1608.1023" timestamp="1600273539892" />
+    <state x="471" y="274" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1608.1023@72.27.1608.1023" timestamp="1600273776754" />
   </component>
 </project>
