@@ -24,5 +24,21 @@ func Addition() {
 
 func main() {
 	// fmt.Println("main func")
+	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+	fmt.Println("                                                 ")
+	fmt.Println("                                                 ")
+	fmt.Println("*************************************************")
+	fmt.Println("                                                 ")
+	fmt.Println("             Adding Two Numbers                                    ")
+	fmt.Println("                                                 ")
+	fmt.Println("*************************************************")
+	fmt.Println("                                                 ")
+	fmt.Println("                                                 ")
+
 	Addition()
+
+	fmt.Println("                                                 ")
+	fmt.Println("                                                 ")
+	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
 }
