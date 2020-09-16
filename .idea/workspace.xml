@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f028443a-e799-4955-ad83-38b9697e5f09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/add/add.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/math/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/math/math_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/snap/go/current" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hb6QUQXLpGXwfZF8VidW3cTf0X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pkg/math" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/math" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/math" />
+      <recent name="$PROJECT_DIR$/cmd/add" />
+      <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$/testdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.build">
+    <configuration name="TestAddValues in github.com/skycoin/arena" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="arena" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/skycoin/arena" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAddValues\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="format" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.build" />
+        <item itemvalue="Makefile.format" />
+        <item itemvalue="Go Test.TestAddValues in github.com/skycoin/arena" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="340" width="556" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600272961536">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state x="593" y="340" width="556" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1608.1023@72.27.1608.1023" timestamp="1600272961536" />
+    <state x="511" y="319" width="719" height="452" key="EditFileWatcherDialog" timestamp="1600267694288">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state x="511" y="319" width="719" height="452" key="EditFileWatcherDialog/72.27.1608.1023@72.27.1608.1023" timestamp="1600267694288" />
+    <state width="1562" height="266" key="GridCell.Tab.0.bottom" timestamp="1600272808919">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state width="1562" height="266" key="GridCell.Tab.0.bottom/72.27.1608.1023@72.27.1608.1023" timestamp="1600272808919" />
+    <state width="1562" height="266" key="GridCell.Tab.0.center" timestamp="1600272808918">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state width="1562" height="266" key="GridCell.Tab.0.center/72.27.1608.1023@72.27.1608.1023" timestamp="1600272808918" />
+    <state width="1562" height="266" key="GridCell.Tab.0.left" timestamp="1600272808918">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state width="1562" height="266" key="GridCell.Tab.0.left/72.27.1608.1023@72.27.1608.1023" timestamp="1600272808918" />
+    <state width="1562" height="266" key="GridCell.Tab.0.right" timestamp="1600272808919">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state width="1562" height="266" key="GridCell.Tab.0.right/72.27.1608.1023@72.27.1608.1023" timestamp="1600272808919" />
+    <state x="365" y="173" width="1022" height="737" key="SettingsEditor" timestamp="1600267695506">
+      <screen x="72" y="27" width="1608" height="1023" />
+    </state>
+    <state x="365" y="173" width="1022" height="737" key="SettingsEditor/72.27.1608.1023@72.27.1608.1023" timestamp="1600267695505" />
+  </component>
+</project>
