@@ -1,0 +1,6 @@
+lint:
+	golangci-lint run -v ./...
+test:
+	go test -v ./... 
+build:
+	go build main.go

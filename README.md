@@ -21,4 +21,25 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 4: Linter:
 https://github.com/golangci/golangci-lint
 
+## How to run
+check linting of the project files
+```
+make lint
+```
 
+check if the unit tests are working fine
+```
+make test
+```
+
+build executable
+```
+make build
+```
+
+Then run
+```
+./main 2 5
+```
+
+Have a nice day ahead!
