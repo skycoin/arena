@@ -12,7 +12,7 @@ var NumberTooHighError = errors.New("provided number too high for addition")
 
 // Add function takes dynamic number of arguments ( variadic ) and returns their sum.
 func Add(nums ...string) (float64, error) {
-	if len(nums) < 2 {
+	if len(nums[1:]) < 2 {
 		return -1, ArgumentsCountError
 	}
 	var sum float64 = 0
