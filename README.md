@@ -23,4 +23,4 @@ https://github.com/golangci/golangci-lint
 
 ## Steps to run
 1. ```make build```
-2. ```./main 2 3.4
+2. ```./main 2 3.4```
