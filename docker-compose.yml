@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+   arena-addition:
+    image: arena-add
+    container_name: arena-addition
+    entrypoint: ["./arena-add", "add"]
