@@ -1,24 +1,15 @@
-# Arena
+# README
 
-## Tasks
+## Development environment
 
-1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
-2. Fork this repository and make a PR to this repository with the code.
-3. Add information for contact in the PR. (Email, Telegram or Wechat.)
+The program is designed for running in Linux based system or Mac OS.
 
-## Guidelines
-Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
+## Execution
 
-1: Branch and PR guide:
-https://github.com/skycoin/skycoin/wiki/Github-branch-and-PR-guide
+To run the program, execute `go run main.go` command with two numbers, separated by a space. For example, `go run main.go 1 2`.
 
-2: Idiomatic Go guide:
-https://github.com/skycoin/skycoin/wiki/Idiomatic-Go-%28in-Skycoin%29
+If two numbers are not provided, then the program will prompt the user to input two numbers again.
 
-3: Dependency management:
-https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
+## Testing
 
-4: Linter:
-https://github.com/golangci/golangci-lint
-
-
+To run the test cases, execute `go test` command in the root of this project.
