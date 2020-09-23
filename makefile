@@ -7,3 +7,5 @@ help:
 format: ## Formats the code
 	goimports -local github.com/daemon-dash/arena -w .
 
+lint: ## Run linters.
+	golangci-lint run
