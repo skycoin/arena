@@ -22,3 +22,9 @@ https://github.com/skycoin/skycoin/wiki/Dependency-management-in-Skycoin
 https://github.com/golangci/golangci-lint
 
 
+### Steps to run the program
+
+```bash
+go build
+./main 10 20.5
+```
