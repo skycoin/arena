@@ -6,7 +6,7 @@ import (
 	"math/big"
 )
 
-const precision = 100
+const precision = 128
 
 var NotEnoughArgsErr = errors.New("Not enough arguments")
 
@@ -45,6 +45,12 @@ func parseValue(s string) (*big.Float, error) {
 	return res, err
 }
 
+// AddNumbers a and b, returning their result
+// the precision in the result is doubled
 func AddNumbers(a, b *big.Float) *big.Float {
-	panic("Not implemented")
+	res := big.NewFloat(0.0)
+	// should be _good enough_, still might cause issues when adding a very big and a very small number
+	res.SetPrec(precision * 2)
+	res.Add(a, b)
+	return res
 }

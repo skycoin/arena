@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -15,5 +16,6 @@ func main() {
 	if a.IsInf() || b.IsInf() {
 		log.Fatal("Error: infinities aren't allowed")
 	}
-	adder.AddNumbers(a, b)
+	res := adder.AddNumbers(a, b)
+	fmt.Printf("Result: %s\n", res.String())
 }
