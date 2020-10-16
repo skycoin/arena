@@ -10,7 +10,7 @@ func main() {
     	Addition()
 }
 
-
+//funtion to take input from CLI and then add the numbers and give result
 func Addition() {
 
 	fmt.Println("\n")
