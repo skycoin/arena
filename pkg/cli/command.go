@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/gocodedrifter/arena/src/transaction"
+	"github.com/gocodedrifter/arena/pkg/transaction"
 )
 
 // Command : command interface

@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gocodedrifter/arena/src/cli"
+	"github.com/gocodedrifter/arena/pkg/cli"
 )
 
 func main() {
