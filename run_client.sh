@@ -1,1 +1,1 @@
-go run cmd/main.go src/*
+go run cmd/main.go pkg/*
