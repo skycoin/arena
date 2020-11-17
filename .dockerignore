@@ -1,0 +1,6 @@
+.idea
+vendor
+docker-compose.yml
+Dockerfile
+.dockerignore
+README.md

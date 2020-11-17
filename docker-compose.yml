@@ -1,0 +1,11 @@
+version: "3"
+services:
+  console:
+    command: ['sleep', '300d']
+    build:
+      context: .
+      target: 'build'
+      dockerfile: Dockerfile
+    image: skycoin/arena:dev
+    volumes:
+      - .:/go/src/github.com/skycoin/arena

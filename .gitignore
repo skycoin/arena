@@ -10,3 +10,17 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Cache
+.cache
+
+### macOS template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains
+.idea
+
+#Dependency
+vendor
