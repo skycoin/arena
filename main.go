@@ -24,8 +24,8 @@ func Sum(values ...string) (float64, error) {
 
 func main() {
 	argsFromCommand := os.Args[1:]
-	if len(argsFromCommand) == 0 {
-		log.Println("To use this command, you must pass at least one number as argument.")
+	if len(argsFromCommand) < 2 {
+		log.Println("To use this command, you must pass at least two number as argument.")
 		return
 	}
 	// "Take two numbers from the command line"
