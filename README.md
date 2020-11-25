@@ -1,5 +1,11 @@
 # Arena
 
+## Usage
+After building, use the following command to run app:
+```
+./cli-app firstnumber secondnumber
+```
+
 ## Tasks
 
 1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
