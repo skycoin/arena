@@ -20,8 +20,9 @@ func AddCommand() {
 
 	// Two arguments are required, exit if one of them is not provided
 	if len(os.Args) < 2 {
-		fmt.Fprintf(out, "Enter a valid command\n")
-		addCommand.Usage()
+		fmt.Fprintf(out, `arena 
+  add - This command adds two numbers passed in the command line
+        e.g: $arena add 1 2`)
 		os.Exit(1)
 	}
 

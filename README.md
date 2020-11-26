@@ -1,4 +1,25 @@
 # Arena
+## Usage
+
+```
+git clone git@github.com/udaya2899/arena.git
+cd arena
+
+# The following command installs the package and puts it in GOBIN:
+go install
+```
+
+To see help on what this program does, run:
+```
+arena
+```
+
+To run the program i.e to add two numbers, run:
+```
+arena add 2 3
+```
+
+Replace 2 and 3 with the number you want to add.
 
 ## Tasks
 
