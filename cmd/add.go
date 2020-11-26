@@ -8,6 +8,7 @@ import (
 	"strconv"
 )
 
+// Writing to out through io.Writer to facilitate unit testing
 var out io.Writer = os.Stdout
 
 var errCannotConvert = fmt.Errorf("Cannot convert first argument to number")
