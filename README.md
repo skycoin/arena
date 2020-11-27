@@ -1,5 +1,5 @@
-# Adds two numbers together
-I didn't use `dep` even though it was suggested by the guide. I didn't use it because `dep` deprecated (as listed in their repository). This repo uses `go modules` instead.
+# Go app that adds two numbers from CLI args
+I didn't use `dep` even though it was suggested by the guide. I didn't use it because `dep` is deprecated (as listed in their repository). This repo uses `go modules` instead.
 
 ## Execution
 
