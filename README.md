@@ -2,6 +2,7 @@
 
 ## Tasks
 
+
 1. Write a Golang program that takes two numbers from the command line, adds them up and prints the result.
 2. Fork this repository and make a PR to this repository with the code.
 3. Add information for contact in the PR. (Email, Telegram or Wechat.)
