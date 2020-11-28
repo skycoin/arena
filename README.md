@@ -6,6 +6,13 @@
 2. Fork this repository and make a PR to this repository with the code.
 3. Add information for contact in the PR. (Email, Telegram or Wechat.)
 
+## Guide
+To run program do following commands
+
+1. make deps
+2. make build
+3. ./main <num1> <num2>
+
 ## Guidelines
 Here are some guidelines that will give you a clearer picture of what is expected in terms of coding style and conventions.
 
